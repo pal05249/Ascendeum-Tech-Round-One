@@ -1,0 +1,36 @@
+body {
+  margin: 5rem 20rem;
+  width: 500px;
+}
+.table > input {
+  margin: 1rem;
+}
+.playground {
+  margin-top: 0.5rem;
+  border: 1px solid black;
+  width: 100%;
+  height: 250px;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+  padding: 0.5rem;
+}
+
+.box {
+  width: 10px;
+  height: 10px;
+  background: orange;
+}
+table {
+  width: 100%;
+}
+
+table,
+td,
+th,
+tr {
+  border: 1px solid black;
+  padding: 1rem;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="table">
+      <label for="timeout">Box timeout</label>
+      <input type="number" name="timeout" id="timeout" value="1" />
+      <div class="header">
+        <button type="button" id="start">Start</button>
+        <button type="button" id="pause">Pause</button>
+        <button type="button" id="reset">Reset</button>
+      </div>
+      <div class="playground">
+        <div class="box" id="box"></div>
+      </div>
+
+      <table>
+        <thead>
+          <th>Mouse click</th>
+          <th>Time(sec)</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
